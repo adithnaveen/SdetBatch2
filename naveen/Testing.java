@@ -9,5 +9,7 @@ public class Testing{
 		System.out.println("Hello World in GIT");
 		System.out.print("Addition is " + 
 			add(10, 30));
+			
+		System.out.println("This is new line for first time POLL... ")
 	}
 }

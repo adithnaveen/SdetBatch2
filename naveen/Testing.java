@@ -10,6 +10,6 @@ public class Testing{
 		System.out.print("Addition is " + 
 			add(10, 30));
 			
-		System.out.println("This is new line for first time POLL... ")
+		System.out.println("This is new line for first time POLL... ");
 	}
 }

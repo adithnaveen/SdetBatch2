@@ -5,8 +5,8 @@ public class Testing{
 	public static int add(int a, int b){
 		return a + b;
 	}
-	public static void MAIN(String args){
-		System.out.println("Hello World in GIT");
+	public static void M AIN(String args){
+		System.out.p rintln("Hello World in GIT");
 		System.out.print("Addition is " + 
 			add(10, 30));
 			

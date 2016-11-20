@@ -1,0 +1,13 @@
+package com.fannie.annotations;
+
+import org.hibernate.SessionFactory;
+
+import com.fannie.hibernate02.HibernateUtils;
+
+public class EmployeeImpl {
+	public static void main(String[] args) {
+		SessionFactory factory = HibernateUtils.getFactory("hibernate1.cfg.xml");
+		
+		
+	}
+}

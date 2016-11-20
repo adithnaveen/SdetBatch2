@@ -1,0 +1,11 @@
+package com.fannie.hibernate02;
+
+import org.hibernate.SessionFactory;
+
+public class HibernateUtils {
+	static SessionFactory factory = null;
+	
+	public static SessionFactory getFactory(){
+		
+	}
+}

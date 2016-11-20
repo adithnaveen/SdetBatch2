@@ -1,0 +1,28 @@
+package com.fannie.annotations.inheritance;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Project {
+	
+	@Id
+	@GeneratedValue
+	private int prjId;
+	private String prjName;
+	public int getPrjId() {
+		return prjId;
+	}
+	public void setPrjId(int prjId) {
+		this.prjId = prjId;
+	}
+	public String getPrjName() {
+		return prjName;
+	}
+	public void setPrjName(String prjName) {
+		this.prjName = prjName;
+	}
+	
+	
+}

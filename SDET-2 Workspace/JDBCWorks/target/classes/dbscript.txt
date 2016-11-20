@@ -1,0 +1,13 @@
+create database fannie;
+
+show databases;
+
+use fannie;
+
+
+create table Emp(
+	empid int primary key auto_increment, 
+	empname varchar(30), 
+	empsal decimal(9,2), 
+	empemail varchar(40));
+

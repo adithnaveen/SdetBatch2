@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="shoppingTestRunner" project="AdvCucumberWorks" tests="19" started="19" failures="0" errors="0" ignored="0">
+  <testsuite name="com.fannie.shoppingTestRunner" time="0.046">
+    <testsuite name="Feature: Login to account" time="0.002">
+      <testsuite name="Scenario: Valid UserName and Password" time="0.002">
+        <testcase name="Given Launch the application" classname="Scenario: Valid UserName and Password" time="0.001"/>
+        <testcase name="Then Enter valid username and password" classname="Scenario: Valid UserName and Password" time="0.001"/>
+        <testcase name="And Click on submit button" classname="Scenario: Valid UserName and Password" time="0.0"/>
+        <testcase name="Then Take me to home page" classname="Scenario: Valid UserName and Password" time="0.0"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Adding items to cart" time="0.029">
+      <testsuite name="Scenario Outline: No item selected in basket" time="0.029">
+        <testsuite name="Examples:" time="0.029">
+          <testsuite name="| Without | Should | Cannot |" time="0.0">
+            <testcase name="Given I start the application" classname="| Without | Should | Cannot |" time="0.0"/>
+            <testcase name="Then I should see a selection of product" classname="| Without | Should | Cannot |" time="0.0"/>
+            <testcase name="When I browse &quot;Without&quot; buying product" classname="| Without | Should | Cannot |" time="0.0"/>
+            <testcase name="Then My basket &quot;Should&quot; be empty" classname="| Without | Should | Cannot |" time="0.0"/>
+            <testcase name="And I &quot;Cannot&quot; buy an item" classname="| Without | Should | Cannot |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| With | Shouldnot | Can |" time="0.0">
+            <testcase name="Given I start the application" classname="| With | Shouldnot | Can |" time="0.0"/>
+            <testcase name="Then I should see a selection of product" classname="| With | Shouldnot | Can |" time="0.0"/>
+            <testcase name="When I browse &quot;With&quot; buying product" classname="| With | Shouldnot | Can |" time="0.0"/>
+            <testcase name="Then My basket &quot;Shouldnot&quot; be empty" classname="| With | Shouldnot | Can |" time="0.0"/>
+            <testcase name="And I &quot;Can&quot; buy an item" classname="| With | Shouldnot | Can |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| xxx | YYY | zzz |" time="0.0">
+            <testcase name="Given I start the application" classname="| xxx | YYY | zzz |" time="0.0"/>
+            <testcase name="Then I should see a selection of product" classname="| xxx | YYY | zzz |" time="0.0"/>
+            <testcase name="When I browse &quot;xxx&quot; buying product" classname="| xxx | YYY | zzz |" time="0.0"/>
+            <testcase name="Then My basket &quot;YYY&quot; be empty" classname="| xxx | YYY | zzz |" time="0.0"/>
+            <testcase name="And I &quot;zzz&quot; buy an item" classname="| xxx | YYY | zzz |" time="0.0"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

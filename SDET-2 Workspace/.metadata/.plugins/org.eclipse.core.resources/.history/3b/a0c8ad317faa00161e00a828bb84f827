@@ -1,0 +1,5 @@
+package com.fannie.hibernate02;
+
+public class HibernateUtils {
+	
+}

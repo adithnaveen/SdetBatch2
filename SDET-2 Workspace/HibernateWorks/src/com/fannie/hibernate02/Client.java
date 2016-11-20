@@ -1,0 +1,25 @@
+package com.fannie.hibernate02;
+
+import org.hibernate.Session;
+
+public class Client {
+	public static void main(String[] args) {
+		Product products[] = {
+				new CellPhone("Smart", "Android", "CDMA", 101, "Samsung", "samsung s7 series", 4444), 
+				new CellPhone("Smart", "iOS", "GSM", 102, "Apple", "S6", 6666),
+				new Television(37, "LCD", "1024x786", 103, "LG", "Lg Curved", 3344)
+		};
+		
+		
+		Session session = HibernateUtils.getFactory().openSession();
+		session.beginTransaction();
+		
+		for(Product temp : products){
+			session.save(temp);
+		}
+		
+		session.getTransaction().commit();
+		
+		System.out.println("Saved... ");
+	}
+}

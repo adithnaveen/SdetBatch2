@@ -1,0 +1,6 @@
+package com.fannie.annotations.inheritance;
+
+public class Module extends Project{
+	private String moduleName;
+	
+}

@@ -1,0 +1,11 @@
+package com.fannie.day2;
+
+
+
+
+
+
+public class UserDefExceptionImpl {
+	public static void main(String[] args) {
+	}
+}

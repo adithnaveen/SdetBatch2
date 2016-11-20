@@ -1,0 +1,37 @@
+package com.fannie.day2;
+
+
+
+
+// this checked exception 
+class FannieMaeException extends Exception{
+	String msg;
+
+	FannieMaeException(){
+		msg = "Sorry Loan Not Processed";
+	}
+	
+	FannieMaeException(String msg){
+		this.msg = msg;
+	}
+
+	F@Override
+	public String toString() {
+		
+		
+		return "FannieMaeException [msg=" + msg + "]";
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+public class UserDefExceptionImpl {
+
+}

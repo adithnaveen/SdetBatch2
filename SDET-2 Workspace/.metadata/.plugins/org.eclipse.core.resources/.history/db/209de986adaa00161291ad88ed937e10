@@ -1,0 +1,8 @@
+package com.fannie.annotations.inheritance;
+
+public class Project {
+	private prjId;
+	private prjName;
+	
+	
+}

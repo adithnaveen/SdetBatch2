@@ -1,0 +1,10 @@
+package com.fannie.annotations;
+
+public class Customer {
+	private int custId;
+	private String custName;
+	private double custSal;
+	private String custEmail;
+	
+	private String password;
+}

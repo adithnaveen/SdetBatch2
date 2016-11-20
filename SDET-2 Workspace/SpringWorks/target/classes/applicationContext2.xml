@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd"
+	    default-init-method="myInit" default-destroy-method="myDestroy">
+
+	<bean id="emp" class="com.fannie.basics.Employee" autowire="byType">
+		<property name="empId" value="101"/>
+		<property name="empName" value="Tim"/>
+		<!--  we can have has a relation ship in Spring context file -->
+	</bean>
+	
+	
+	<!--  any class which implements BeanPostProcessor entry will be 
+		 made in the applicationContext file, without id
+		 because you cannot create an instance of this, instead 
+		 this will be invoked by spring container implicitly  -->
+	<bean class="com.fannie.postprocessor.MyPostProcessor"/>
+	
+	
+	
+</beans>
+
+	

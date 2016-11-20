@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AdvCucumberWorks/testng.xml&apos; to &apos;_testng.xml&apos;" description="Rename resource &apos;testng.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng.xml" name="_testng.xml" stamp="1478635154238" updateReferences="true"/>
+</session>

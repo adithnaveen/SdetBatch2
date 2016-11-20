@@ -1,0 +1,11 @@
+package com.fannie.hibernate02;
+
+public class Client {
+	public static void main(String[] args) {
+		Product products[] = {
+				new CellPhone("Smart", "Android", "CDMA", 101, "Samsung", "samsung s7 series", 4444), 
+				
+				
+		};
+	}
+}

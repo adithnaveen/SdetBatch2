@@ -1,0 +1,20 @@
+
+Sep 22, 2016 07:41:59.88 NEW SESSION
+Sep 22, 2016 07:41:59.88 Vector smash protection is enabled.
+Sep 22, 2016 08:14:30.78 1474557270755	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Sep 22, 2016 08:14:30.87 1474557270851	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Sep 22, 2016 08:14:30.97 1474557270949	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 22, 2016 08:19:43.32 Vector smash protection is enabled.
+Sep 22, 2016 08:20:00.40 [NPAPI 6904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+Sep 22, 2016 08:20:13.65 Vector smash protection is enabled.
+
+Oct 10, 2016 07:03:14.73 NEW SESSION
+Oct 10, 2016 07:03:14.73 Vector smash protection is enabled.
+Oct 10, 2016 07:03:47.78 1476108227761	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Oct 10, 2016 07:03:47.88 1476108227867	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Oct 10, 2016 07:03:47.98 1476108227934	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Oct 10, 2016 07:03:50.32 [NPAPI 4404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+Oct 10, 2016 07:03:51.83 Vector smash protection is enabled.
+Oct 10, 2016 07:03:59.25 [NPAPI 3032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+Oct 10, 2016 07:04:08.93 [Child 4836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+Oct 10, 2016 07:04:18.38 Vector smash protection is enabled.

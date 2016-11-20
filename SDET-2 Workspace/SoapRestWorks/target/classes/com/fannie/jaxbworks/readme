@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+	<emp>
+		<uname>Scott</uname>
+		<deisg>Softwar Enginerr</desig>
+		<address>
+			<street>myStreet</street>
+			<pin>32434</pin>
+			<state>Virginia</state>
+		</address>
+	</emp>
+
+
+
+{
+	uname:"Scott", 
+	desig:"Software Enginerr", 
+	address:{
+		street:"mystreet", 
+		pin:32434,
+		state:"virginia"
+	}
+}
+
+class Emp{
+	private String uname;
+	private String desig;
+	private Address address;
+}
+
+class Address{
+	private String street;
+	private int pin;
+	private String state;
+}

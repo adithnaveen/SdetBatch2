@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="SoapRestWorks::org.eclipse.jst.jee.server:SoapRestWorks::jst.web::3.1" value1="RestWebClient::org.eclipse.jst.jee.server:RestWebClient::jst.web::3.1" value2="jenkins::org.eclipse.jst.j2ee.server:jenkins::jst.web::2.4" value3="struts2-blank-2.0.8::org.eclipse.jst.j2ee.server:struts2-blank-2.0.8::jst.web::2.4" value4="SpringWebWorks::org.eclipse.jst.jee.server:SpringWebWorks::jst.web::3.1"/>
+  </server>
+</servers>

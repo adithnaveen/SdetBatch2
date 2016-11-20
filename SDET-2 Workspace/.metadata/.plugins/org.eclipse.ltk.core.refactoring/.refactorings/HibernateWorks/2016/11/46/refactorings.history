@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void somemethod()&apos; from &apos;com.fannie.hibernate.EmployeeImpl.addEmployee()&apos; to &apos;com.fannie.hibernate.EmployeeImpl&apos;&#x0D;&#x0A;- Original project: &apos;HibernateWorks&apos;&#x0D;&#x0A;- Method name: &apos;somemethod&apos;&#x0D;&#x0A;- Destination type: &apos;com.fannie.hibernate.EmployeeImpl&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;somemethod&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.fannie.hibernate{EmployeeImpl.java" name="somemethod" replace="false" selection="773 65" stamp="1478810560266" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function fnGetEmps(){
+		name = document.empform.name.value;
+		var xmlhttp;
+		
+		// here you can write more checks like 
+		// name.lenght>0 or name ="" or name.charAt(0) != " "
+		if(name.length>0){
+			// this object gets the data from the controller 
+			// immetirial of technology 
+			xmlhttp = new XMLHttpRequest();
+			
+			xmlhttp.onreadystatechange = function(){
+				if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+					console.log(xmlhttp.responseText);
+					document.getElementById("showEmps").innerHTML 
+					 	= xmlhttp.responseText; 
+				}
+			}
+			
+			xmlhttp.open("GET", "GetEmployee.do?name=" +name, true);
+			xmlhttp.send();
+			
+		}else{
+			document.getElementById("showEmps").innerHTML ="Please Enter Name";
+		}
+	}
+</script>
+</head>
+<body>
+
+<form name="empform">
+	Enter Name <input type="text" name="name" onkeyup="fnGetEmps()"/>
+</form>
+<div id="showEmps"></div>
+</body>
+</html>

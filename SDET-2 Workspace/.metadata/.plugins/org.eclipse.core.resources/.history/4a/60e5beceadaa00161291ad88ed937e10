@@ -1,0 +1,5 @@
+package com.fannie.annotations.inheritance;
+
+public class Task extends Module{
+	private String taskName;
+}

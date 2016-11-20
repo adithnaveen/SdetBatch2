@@ -1,0 +1,10 @@
+package com.fannie.hibernate02;
+
+public class Product {
+	private int pId;
+	private String pName;
+	private String pDesc;
+	private double pPrice;
+	
+	
+}

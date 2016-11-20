@@ -1,0 +1,10 @@
+package com.fannie.hibernate02;
+
+public class CellPhone extends Product {
+	private String type; // ordinary or smart 
+	private String os;   // iOS, Android, Windows
+	private String connectivity;  // GSM, CDMA 
+	
+	
+	
+}

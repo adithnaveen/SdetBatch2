@@ -1,0 +1,17 @@
+0    [main] ERROR com.fannie.log4j.Hippo1  -Here is some ERROR
+1    [main] DEBUG com.fannie.log4j.Hippo1  -Here is some DEBUG
+3    [main] INFO  com.fannie.log4j.Hippo1  -Here is some INFO
+4    [main] WARN  com.fannie.log4j.Hippo1  -Here is some WARN
+5    [main] ERROR com.fannie.log4j.Hippo1  -Here is some ERROR
+0    [main] DEBUG com.fannie.log4j.Hippo1  -Here is some DEBUG
+4    [main] INFO  com.fannie.log4j.Hippo1  -Here is some INFO
+4    [main] WARN  com.fannie.log4j.Hippo1  -Here is some WARN
+4    [main] ERROR com.fannie.log4j.Hippo1  -Here is some ERROR
+0    [main] DEBUG com.fannie.log4j.Hippo1  -Here is some DEBUG
+2    [main] INFO  com.fannie.log4j.Hippo1  -Here is some INFO
+2    [main] WARN  com.fannie.log4j.Hippo1  -Here is some WARN
+3    [main] ERROR com.fannie.log4j.Hippo1  -Here is some ERROR
+0    [main] DEBUG com.fannie.log4j.Hippo1  -Here is some DEBUG
+2    [main] INFO  com.fannie.log4j.Hippo1  -Here is some INFO
+3    [main] WARN  com.fannie.log4j.Hippo1  -Here is some WARN
+3    [main] ERROR com.fannie.log4j.Hippo1  -Here is some ERROR

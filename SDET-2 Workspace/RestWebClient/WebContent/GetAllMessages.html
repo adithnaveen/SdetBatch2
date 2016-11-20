@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+
+<script type="text/javascript">
+// ananymous function which gets called implicity when the page is loaded 
+// else you can have a button on click of it you can invoke a function 
+// and all code shall go in function 
+
+
+	$(function(){
+		var options ={
+				url:"http://localhost:9090/SoapRestWorks/resources/message",
+				method :"GET", 
+				dataType :"json", 
+				success:function(data){
+					var table =$("<table border='3'>");
+					data.forEach(function(temp){
+						var row = $("<tr>");
+						var td1 = $("<td>").append(temp.msg).append("</td></tr>");
+						var td2 = $("<td>").append(temp.author).append("</td></tr>");
+						var img = $("<img>").attr("src", 
+								"http://localhost:9090/SoapRestWorks/images/"+temp.messageId+".jpg")
+								.attr("height", 100)
+								.attr("width", 100);
+						var td3 = $("<td>").append(img).append("</td>");
+						row.append(td1).append(td2).append(td3);
+						table.append(row);
+					});
+					$("#messagelist").html(table)
+				}}
+		$.ajax(options);
+	});
+</script>
+</head>
+<body>
+<h1>All Messages Go Here</h1>
+<div id="messagelist"></div>
+</body>
+</html>

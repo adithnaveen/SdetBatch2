@@ -1,0 +1,9 @@
+package com.fannie.annotations;
+
+public class College {
+	private int collegeId;
+	private String collegeName;
+	private int collegeStrength;
+	private String collegeLocation; 
+	private String collegeContact;
+}

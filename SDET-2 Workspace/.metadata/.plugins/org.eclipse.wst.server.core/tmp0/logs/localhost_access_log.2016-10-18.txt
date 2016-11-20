@@ -1,0 +1,5 @@
+127.0.0.1 - - [18/Oct/2016:12:11:55 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Oct/2016:12:12:02 -0700] "GET /SoapRestWorks/resources/message/ HTTP/1.1" 200 144
+0:0:0:0:0:0:0:1 - - [18/Oct/2016:12:12:11 -0700] "DELETE /SoapRestWorks/resources/message/101 HTTP/1.1" 201 36
+0:0:0:0:0:0:0:1 - - [18/Oct/2016:12:12:16 -0700] "GET /SoapRestWorks/resources/message/ HTTP/1.1" 200 71
+0:0:0:0:0:0:0:1 - - [18/Oct/2016:13:23:32 -0700] "GET /AjaxWorks/GetEmployee.do?name=sc HTTP/1.1" 404 1042

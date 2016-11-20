@@ -1,0 +1,11 @@
+package com.fannie.annotations.inheritance;
+
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class ProjectImpl {
+	public static void main(String[] args) {
+		AnnotationConfiguration config = new AnnotationConfiguration();
+		
+		config.configure("hibernate1.cfg.xml");
+	}
+}

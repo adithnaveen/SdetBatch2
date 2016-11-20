@@ -1,0 +1,10 @@
+package com.fannie.hibernate02;
+
+public class Television extends Product {
+	private int size;   // in inches 
+	private String screenType; // LED/CRT/LCD
+	private String resolution; // 1024x786, 2048 x 1400 
+	
+	
+	
+}
